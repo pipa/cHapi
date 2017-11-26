@@ -1,0 +1,23 @@
+{
+  "name": "chapi",
+  "version": "0.0.1",
+  "description": "Hapijs v17 skeleton",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hapijs"
+  ],
+  "author": "LM",
+  "license": "MIT",
+  "dependencies": {
+    "confidence": "^3.0.2",
+    "glue": "5.0.0",
+    "hapi": "17.1.1",
+    "wavy": "1.0.4"
+  },
+  "devDependencies": {
+    "pm2": "2.8.0"
+  }
+}
