@@ -1,5 +1,5 @@
 // Deps =========================================
-const config = require('~/config');
+const config = require('./config');
 const server = require('./lib');
 
 // Kickstart Server =============================

@@ -1,7 +1,7 @@
 // Deps =========================================
 const confidence = require('confidence');
 const path = require('path');
-const pkg = require('~/package.json');
+const pkg = require('../package.json');
 
 // Internals ====================================
 const internals = {
@@ -20,7 +20,7 @@ internals.config = {
   manifest: {
     server: {
       host: 'localhost',
-      port: 3000,
+      port: 9999,
       http2: {
         key: path.join(__dirname, '../certs/selfsigned.key'),
         cert: path.join(__dirname, '../certs/selfsigned.crt'),
@@ -28,7 +28,7 @@ internals.config = {
     },
     register: {
       plugins: [
-        { plugin: './plugins/plug.js' }
+        'vision'
       ]
     }
   }
